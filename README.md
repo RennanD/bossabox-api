@@ -3,7 +3,14 @@ HOST: http://localhost:3000/
 
 #Sample da Api
 
-Descrição da Sample.
+Para executar a API:
+    
+    $ npm install i // yarn add i
+    $ yarn dev
+    
+    // Acessar "/tools" para adicionar e listar as ferramentas (POST / GET)
+    // Acessar "/tools?tag=x" para fazer buscas por tags na API
+    // Acessar "/tools/:id/delete" para excluir ferramentas
 
 # Group Api
 
