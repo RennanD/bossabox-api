@@ -2,17 +2,19 @@ FORMAT: 1A
 HOST: http://localhost:3000/
 
 #Sample da Api
-Descrição.
+
+Descrição da Sample.
 
 # Group Api
 
 ##Sobre[/]
+
 Api que recebe e retorna objetos no formato de JSON, desprovida de autênticação.
 
 
 ## Tools [/tools]
 
-### Cdastrar novas ferramentas [POST]
+### Cadastrar novas ferramentas [POST]
 
 + Request Cadastrar um ferramenta
 
@@ -30,11 +32,11 @@ Api que recebe e retorna objetos no formato de JSON, desprovida de autênticaç�
 
 + Response 200 (appication/json)
     
-    +Attributes (Tools)
+    + Attributes (Tools)
 
 + Response 404 (appication/json)
     
-    +Attributes (Error)
+    + Attributes (Error)
 
 ### Excluir ferramentas [DELETE]
 
@@ -48,4 +50,4 @@ Api que recebe e retorna objetos no formato de JSON, desprovida de autênticaç�
 
 + Response 200 (appication/json)
     
-    +Attributes (Success)
+    + Attributes (Success)
